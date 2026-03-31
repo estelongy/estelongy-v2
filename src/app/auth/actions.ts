@@ -6,28 +6,18 @@ import { createClient } from '@/lib/supabase/server'
 
 export async function login(formData: FormData) {
   const supabase = await createClient()
-  const data = {
-    email: formData.get('email') as string,
-    password: formData.get('password') as string,
-  }
+  const data = { email: formData.get('email') as string, password: formData.get('password') as string }
   const { error } = await supabase.auth.signInWithPassword(data)
-  if (error) {
-    redirect('/giris?error=Giriş başarısız')
-  }
+  if (error) redirect('/giris?error=Giriş başarısız')
   revalidatePath('/', 'layout')
   redirect('/panel')
 }
 
 export async function signup(formData: FormData) {
   const supabase = await createClient()
-  const data = {
-    email: formData.get('email') as string,
-    password: formData.get('password') as string,
-  }
+  const data = { email: formData.get('email') as string, password: formData.get('password') as string }
   const { error } = await supabase.auth.signUp(data)
-  if (error) {
-    redirect('/kayit?error=Kayıt başarısız')
-  }
+  if (error) redirect('/kayit?error=Kayıt başarısız')
   revalidatePath('/', 'layout')
   redirect('/giris?message=Kayıt başarılı')
 }
