@@ -1,0 +1,34 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Estelongy | Zamansız Güzellik Mimarisi",
+  description: "AI destekli cilt analizi, uzman doktor randevuları ve bilimsel ürünler",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="tr">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0a0e17] text-white min-h-screen`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
