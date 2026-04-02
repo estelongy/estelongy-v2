@@ -53,8 +53,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto"
-          >
-            Sağlıklı yaş al, her zaman güzel görün. AI destekli analiz, uzman doktorlar ve bilimsel ürünlerle tanışın.
+          > AI destekli analiz ile ESTELONGY GENÇLİK SKORUNU Öğren, 
+            Uzman doktorlar ve bilimsel ürünlerle tanış...
+            Sağlıklı yaş al, her zaman güzel görün.
           </motion.p>
 
           {/* 3 Ana Kapı */}
