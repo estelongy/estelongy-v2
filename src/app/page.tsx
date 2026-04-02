@@ -36,7 +36,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6"
           >
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">  Zamansız Güzellik 
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">  Zamansız Güzellik  
             </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
               Mimarisi
