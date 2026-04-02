@@ -36,18 +36,16 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6"
           >
-            <h2 className="text-xl font-bold tracking-wide text-center">
-  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
-    Zaman
-  </span>
-  <span className="text-white">
-    sız Güzellik Mi
-  </span>
-  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
-    marisi
-  </span>
-</h2>
-            
+<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
+              Zamansız 
+            </span> 
+  <span className="text-transparent bg-clip-text white">
+              Güzellik 
+            </span>
+<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
+              Mimarisi
+            </span> 
+         
           </motion.h1>
           
           <motion.p 
