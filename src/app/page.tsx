@@ -46,23 +46,19 @@ export default function Home() {
   Mimarisi
 </span>
          
-          </motion.h1>
-          
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
- 
-   <span><p className="mt-6 text-center text-slate-300 text-lg leading-relaxed">
-  AI destekli analiz ile <span className="text-[#d4af37] font-semibold">ESTELONGY GENÇLİK SKORUNU</span> Öğren, 
-  <br />
-  Uzman doktorlar ve bilimsel ürünlerle tanış... 
-  <br />
-  <span className="text-[#00d9a3] font-medium">Sağlıklı yaş al, her zaman güzel görün.</span>
-</p></span> 
- 
-          </motion.p>
-
+         <motion.p 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.1 }}
+  className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto"
+>
+  AI destekli analiz ile{" "}
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3] font-semibold">
+    ESTELONGY GENÇLİK SKORUNU
+  </span>{" "}
+  öğren, uzman doktorlar ve bilimsel ürünlerle tanış...{" "}
+  <span className="text-[#00d9a3]">Sağlıklı yaş al, her zaman güzel görün.</span>
+</motion.p>
           {/* 3 Ana Kapı */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
