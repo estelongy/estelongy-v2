@@ -36,21 +36,35 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6"
           >
-            Zamansız Güzellik{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
-              Mimarisi
-            </span>
-          </motion.h1>
-          
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto"
-          >
-            Sağlıklı yaş al, her zaman güzel görün. AI destekli analiz, uzman doktorlar ve bilimsel ürünlerle tanışın.
-          </motion.p>
-
+<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00d9a3] to-[#d4af37]">
+  Zamansız
+</span>
+<span className="text-white mx-2">
+  Güzellik
+</span>
+<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3]">
+  Mimarisi
+</span>
+            </motion.h1>
+         
+<motion.p 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.1 }}
+  className="text-lg sm:text-xl text-white-400 mb-12 max-w-3xl mx-auto leading-relaxed"
+>
+  <span className="block mb-1">
+    AI destekli analiz ile <span className="text-[#d4af37] font-semibold">ESTELONGY GENÇLİK SKORUNU</span> Öğren,
+  </span>
+  
+  <span className="block mb-1">
+    Uzman doktorlar ve bilimsel ürünlerle tanış...
+  </span>
+  
+  <span className="block text-white font-medium">
+    Sağlıklı yaş al, her zaman güzel görün.
+  </span>
+</motion.p>
           {/* 3 Ana Kapı */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
