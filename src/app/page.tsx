@@ -51,14 +51,22 @@ export default function Home() {
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1 }}
-  className="text-lg sm:text-xl text-white-400 mb-12 max-w-2xl mx-auto"
+  className="text-lg sm:text-xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed flex flex-col items-center"
 >
-  AI destekli analiz ile{" "}
-  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3] font-semibold">
-    ESTELONGY GENÇLİK SKORUNU
-  </span>{" "}
-  öğren, uzman doktorlar ve bilimsel ürünlerle tanış...{" "}
-  <span className="text-white">Sağlıklı yaş al, her zaman güzel görün.</span>
+  {/* 1. Satır: Merkezde veya Hafif Solda */}
+  <span className="block w-full text-center md:text-left md:pl-0">
+    AI destekli analiz ile <span className="text-[#d4af37] font-semibold">ESTELONGY GENÇLİK SKORUNU</span> Öğren,
+  </span>
+  
+  {/* 2. Satır: Biraz içeriden başlıyor */}
+  <span className="block w-full text-center md:text-left md:pl-20 mt-2 italic">
+    Uzman doktorlar ve bilimsel ürünlerle tanış...
+  </span>
+  
+  {/* 3. Satır: En içeriden başlıyor veya Sağa Yaslı */}
+  <span className="block w-full text-center md:text-left md:pl-40 mt-2 text-[#00d9a3] font-medium">
+    Sağlıklı yaş al, her zaman güzel görün!
+  </span>
 </motion.p>
           {/* 3 Ana Kapı */}
           <motion.div 
