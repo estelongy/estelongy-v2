@@ -51,14 +51,14 @@ export default function Home() {
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1 }}
-  className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto"
+  className="text-lg sm:text-xl text-white-400 mb-12 max-w-2xl mx-auto"
 >
   AI destekli analiz ile{" "}
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00d9a3] font-semibold">
     ESTELONGY GENÇLİK SKORUNU
   </span>{" "}
   öğren, uzman doktorlar ve bilimsel ürünlerle tanış...{" "}
-  <span className="text-[#00d9a3]">Sağlıklı yaş al, her zaman güzel görün.</span>
+  <span className="text-white">Sağlıklı yaş al, her zaman güzel görün.</span>
 </motion.p>
           {/* 3 Ana Kapı */}
           <motion.div 
