@@ -52,19 +52,15 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-       <div className="mt-6 text-center space-y-2">
-  <p className="text-slate-300 text-lg md:text-xl font-light tracking-wide">
-    AI destekli analiz ile <span className="text-[#d4af37] font-semibold">ESTELONGY GENÇLİK SKORUNU</span> Öğren,
-  </p>
-  
-  <p className="text-slate-400 text-base md:text-lg">
-    Uzman doktorlar ve bilimsel ürünlerle tanış...
-  </p>
-  
-  <p className="text-[#00d9a3] font-medium italic mt-2">
-    Sağlıklı yaş al, her zaman güzel görün.
-  </p>
-</div>
+ 
+   <span><p className="mt-6 text-center text-slate-300 text-lg leading-relaxed">
+  AI destekli analiz ile <span className="text-[#d4af37] font-semibold">ESTELONGY GENÇLİK SKORUNU</span> Öğren, 
+  <br />
+  Uzman doktorlar ve bilimsel ürünlerle tanış... 
+  <br />
+  <span className="text-[#00d9a3] font-medium">Sağlıklı yaş al, her zaman güzel görün.</span>
+</p></span> 
+ 
           </motion.p>
 
           {/* 3 Ana Kapı */}
