@@ -47,25 +47,22 @@ export default function Home() {
 </span>
             </motion.h1>
          
-         <motion.p 
+<motion.p 
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1 }}
-  className="text-lg sm:text-xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed flex flex-col items-center"
+  className="text-lg sm:text-xl text-white-400 mb-12 max-w-3xl mx-auto leading-relaxed"
 >
-  {/* 1. Satır: Merkezde veya Hafif Solda */}
-  <span className="block w-full text-center md:text-left md:pl-0">
+  <span className="block mb-1">
     AI destekli analiz ile <span className="text-[#d4af37] font-semibold">ESTELONGY GENÇLİK SKORUNU</span> Öğren,
   </span>
   
-  {/* 2. Satır: Biraz içeriden başlıyor */}
-  <span className="block w-full text-center md:text-left md:pl-20 mt-2 italic">
+  <span className="block mb-1">
     Uzman doktorlar ve bilimsel ürünlerle tanış...
   </span>
   
-  {/* 3. Satır: En içeriden başlıyor veya Sağa Yaslı */}
-  <span className="block w-full text-center md:text-left md:pl-40 mt-2 text-[#00d9a3] font-medium">
-    Sağlıklı yaş al, her zaman güzel görün!
+  <span className="block text-white font-medium">
+    Sağlıklı yaş al, her zaman güzel görün.
   </span>
 </motion.p>
           {/* 3 Ana Kapı */}
